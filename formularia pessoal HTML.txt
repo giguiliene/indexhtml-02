@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Profissional</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: hsl(0, 0%, 98%);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #d9d500;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seu Nome</h1>
+        <p>Desenvolvedor Web</p>
+    </header>
+    <div class="container">
+        <section id="about-me">
+            <h2>Sobre Mim</h2>s
+            <p>nome:Giguiliene Fernandes da silva  </p>
+            <p>idade: 40 anos</p>
+            
+        </section>
+        <section id="professional-experience">
+            <h2>Experiência Profissional</h2>
+            <p>[Liste suas experiências de trabalho ou projetos importantes aqui.] </p>
+        </section>
+        <section id="education">
+            <h2>Formação Acadêmica: Analise e Desenvolvedor de sistemas</h2>
+            <p>[Detalhe sua formação educacional aqui.] Inclua escolas frequentadas e quaisquer diplomas ou certificações obtidas.</p>
+        </section>
+    </div>
+</body>
+</html>
+
